@@ -89,12 +89,12 @@ RUN apt-get update && apt-get install -y \
 	libtool \
 	mercurial \
 	parallel \
-	python-devel \
+	python-dev \
 	python-mock \
 	python-pip \
 	zip \
-	gpgme-devel \
-	libassuan-devel \
+	libgpgme11-dev \
+	libassuan-dev \
 	&& pip install awscli==1.10.15
 # Get lvm2 source for compiling statically
 ENV LVM2_VERSION 2.02.103
