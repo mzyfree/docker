@@ -30,6 +30,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		xfsprogs \
 		xz-utils \
 		\
+		pkg-config\
+		\
 		aufs-tools \
 		vim-common \
 	&& rm -rf /var/lib/apt/lists/*
